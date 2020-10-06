@@ -66,8 +66,69 @@ h1{
     font-size: 3.5rem;
     line-height: 1.5;
 }
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
 
 #title{
     background-color: #ff4c68;
     color: white;
+}
+
+/* Testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    
+    color: #ffffff;
+}
+
+.testimonial-logo{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-weight: 300;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+/* Press section */
+
+#press{
+   text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing section */
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #54778c;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.card{
+    background: linear-gradient(var(--angle),var(--secondGradientColor),var(--firstGradientColor));
+    /* box-shadow: 5px 5px 10px #dadada, -5px -5px 10px #adadad; */
+    box-shadow: 5px 5px 10px var(--darkColor),-5px -5px 10px var(--lightColor);
+    /* border-radius: 84px;
+    background: linear-gradient(225deg, #5a7f96, #4c6b7e);
+    box-shadow:  -9px 9px 18px #435f70, 
+                 9px -9px 18px #658fa8; */
 }
