@@ -17,7 +17,7 @@
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 
 }
 /* Download button */
@@ -29,10 +29,16 @@
 .iphone-mockup{
     width: 60%;
     transform: rotate(25deg);
-    /* height: 50%; */
+    position: absolute;
+    right: 25%;
+
 }
 
 /* Feature Styling */
+#features{
+    background-color: #ffffff;
+    position: relative;
+}
 .feature-name{
     font-size:1.5rem;
     font-family: 'Montserrat';
@@ -114,21 +120,10 @@ h2{
 
 
 /* Pricing section */
-#pricing {
-    padding: 7% 15%;
+#pricing{
+    padding: 5%;
     text-align: center;
-    background-color: #54778c;
 }
-.lead {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-.card{
-    background: linear-gradient(var(--angle),var(--secondGradientColor),var(--firstGradientColor));
-    /* box-shadow: 5px 5px 10px #dadada, -5px -5px 10px #adadad; */
-    box-shadow: 5px 5px 10px var(--darkColor),-5px -5px 10px var(--lightColor);
-    /* border-radius: 84px;
-    background: linear-gradient(225deg, #5a7f96, #4c6b7e);
-    box-shadow:  -9px 9px 18px #435f70, 
-                 9px -9px 18px #658fa8; */
+.pricing-column{
+    padding: 3% 2%;
 }
