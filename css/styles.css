@@ -1,3 +1,24 @@
+i{
+    color: #ff4c68;
+    padding-bottom: 2%;
+    
+}
+i:hover{
+    color: coral;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -58,26 +79,7 @@
 }
 
 
-i{
-    color: #ff4c68;
-    padding-bottom: 2%;
-    
-}
-i:hover{
-    color: coral;
-}
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    
-}
 
 #title{
     background-color: #ff4c68;
@@ -126,4 +128,40 @@ h2{
 }
 .pricing-column{
     padding: 3% 2%;
+}
+/* Call to action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #ffffff;
+    padding: 7% 15%;
+     
+}
+.action{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+#footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 7% 15%;
+   
+}
+
+.social-icon{
+    size: 6rem;
+    margin: 20px 10px;
+    color: black;
+}
+
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .iphone-mockup{
+        transform: rotate(0);
+        position: static;
+    }
 }
